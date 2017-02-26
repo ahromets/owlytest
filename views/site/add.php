@@ -7,6 +7,7 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model app\models\Address */
 /* @var $form ActiveForm */
+$this->title = 'Add new address';
 ?>
 <div class="site-add">
 

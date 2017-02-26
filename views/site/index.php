@@ -5,7 +5,7 @@
 use yii\helpers\Html;
 use yii\widgets\LinkPager;
 
-$this->title = 'My Yii Application';
+$this->title = 'Addresses';
 ?>
 <div class="site-index">
 
