@@ -58,11 +58,11 @@ return [
 
 ### Migrations
 
-In your terminal run `yii migrate` command for apply migrations
+In your terminal run `yii migrate` command for apply migrations.
 
 ### Google maps API key
 
-Edit the file `config/params.php` with google api kay:
+Edit the file `config/params.php` with google api key:
 
 ```php
 return [
