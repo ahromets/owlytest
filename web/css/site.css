@@ -117,3 +117,8 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+#map_canvas {
+    padding-bottom: 75%;
+    height: 0;
+}

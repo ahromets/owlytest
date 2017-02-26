@@ -5,7 +5,7 @@ use yii\helpers\Html;
 $this->title = Html::encode($address->name);
 ?>
 
-<div class="row" onload="init()">
+<div class="row">
     <div class="col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading"><h3><?= Html::encode($address->name) ?></h3></div>
@@ -16,13 +16,13 @@ $this->title = Html::encode($address->name);
             </div>
         </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 map-wrap">
         <?php
         echo Map::widget([
             'zoom' => 16,
             'center' => Html::encode($fullAddress),
-            'width' => 700,
-            'height' => 400,
+            'width' => 'auto',
+            'height' => 'auto',
             'mapType' => Map::MAP_TYPE_TERRAIN,
             'markers' => [
                 [
