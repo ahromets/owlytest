@@ -27,7 +27,7 @@ $this->title = Html::encode($address->name);
             'markers' => [
                 [
                     'position' => Html::encode($fullAddress),
-                    'title' => Html::encode($address->city->name),
+                    'title' => Html::encode($address->name),
                 ],
             ]
         ]);
